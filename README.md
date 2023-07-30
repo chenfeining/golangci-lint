@@ -8,7 +8,7 @@ with all major IDE and has dozens of linters included.
 
 ## Install `golangci-lint`
 - Using go version >= go 1.19
-- go install github.com/chenfeining/golangci-lint/cmd/golangci-lint@latest
+- `go install github.com/chenfeining/golangci-lint/cmd/golangci-lint@latest`
 
 ## Documentation
 - Documentation is hosted at https://golangci-lint.run.
