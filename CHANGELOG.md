@@ -882,7 +882,7 @@ IMPORTANT: `varcheck` and `deadcode` has been removed of default linters.
    * bump `github.com/mattn/go-colorable` from 0.1.7 to 0.1.8 (#1413)
    * bump `github.com/sirupsen/logrus` from 1.6.0 to 1.7.0 (#1412)
    * bump `github.com/sourcegraph/go-diff` from 0.6.0 to 0.6.1 (#1414)
-   * bump `golangci/golangci-lint-action` from v2 to v2.3.0  (#1447) (#1469)
+   * bump `chenfeining/golangci-lint-action` from v2 to v2.3.0  (#1447) (#1469)
    * bump `puppeteer` from 3.3.0 to 5.3.1 in /docs (#1418)
 
 ### September 2020
@@ -954,7 +954,7 @@ IMPORTANT: `varcheck` and `deadcode` has been removed of default linters.
     * Move dependabot config to `.github` folder
 7. other
     * bump `lodash` from 4.17.15 to 4.17.19 in /tools
-    * bump `golangci/golangci-lint-action` from v1.2.2 to v2
+    * bump `chenfeining/golangci-lint-action` from v1.2.2 to v2
     * bump `github.com/valyala/quicktemplate` from 1.5.0 to 1.5.1
 
 
