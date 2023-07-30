@@ -23,5 +23,5 @@ ENV GOROOT /usr/local/go
 # See https://github.com/docker-library/golang/issues/80
 RUN apk --no-cache add gcc musl-dev git mercurial
 # don't place it into $GOPATH/bin because Drone mounts $GOPATH as volume
-COPY --from=builder /golangci/golangci-lint /usr/bin/
+COPY --from=builder /chenfeining/golangci-lint /usr/bin/
 CMD ["golangci-lint"]

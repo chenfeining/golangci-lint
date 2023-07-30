@@ -28,13 +28,13 @@ Here is the recommended way to install golangci-lint {.LatestVersion}:
 
 ```sh
 # binary will be $(go env GOPATH)/bin/golangci-lint
-curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin {.LatestVersion}
+curl -sSfL https://raw.githubusercontent.com/chenfeining/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin {.LatestVersion}
 
 # or install it into ./bin/
-curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s {.LatestVersion}
+curl -sSfL https://raw.githubusercontent.com/chenfeining/golangci-lint/master/install.sh | sh -s {.LatestVersion}
 
 # In alpine linux (as it does not come with curl by default)
-wget -O- -nv https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s {.LatestVersion}
+wget -O- -nv https://raw.githubusercontent.com/chenfeining/golangci-lint/master/install.sh | sh -s {.LatestVersion}
 
 golangci-lint --version
 ```
@@ -48,7 +48,7 @@ and is constantly being improved. For any problems with `golangci-lint`, check o
 
 ```sh
 # binary will be $(go env GOPATH)/bin/golangci-lint
-curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin {.LatestVersion}
+curl -sSfL https://raw.githubusercontent.com/chenfeining/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin {.LatestVersion}
 
 golangci-lint --version
 ```
@@ -58,17 +58,17 @@ On Windows, you can run the above commands with Git Bash, which comes with [Git 
 ### Docker
 
 ```sh
-docker run --rm -v $(pwd):/app -w /app golangci/golangci-lint:{.LatestVersion} golangci-lint run -v
+docker run --rm -v $(pwd):/app -w /app chenfeining/golangci-lint:{.LatestVersion} golangci-lint run -v
 ```
 
 Preserving cache between consecutive runs:
 ```sh
-docker run --rm -v $(pwd):/app -v ~/.cache/golangci-lint/{.LatestVersion}:/root/.cache -w /app golangci/golangci-lint:{.LatestVersion} golangci-lint run -v
+docker run --rm -v $(pwd):/app -v ~/.cache/golangci-lint/{.LatestVersion}:/root/.cache -w /app chenfeining/golangci-lint:{.LatestVersion} golangci-lint run -v
 ```
 
 Colored output:
 ```sh
-docker run -t --rm -v $(pwd):/app -w /app golangci/golangci-lint:{.LatestVersion} golangci-lint run -v
+docker run -t --rm -v $(pwd):/app -w /app chenfeining/golangci-lint:{.LatestVersion} golangci-lint run -v
 ```
 
 ### macOS

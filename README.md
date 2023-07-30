@@ -20,10 +20,10 @@ Documentation is hosted at https://golangci-lint.run.
 ## Badges
 
 ![Build Status](https://github.com/chenfeining/golangci-lint/workflows/CI/badge.svg)
-[![License](https://img.shields.io/github/license/golangci/golangci-lint)](/LICENSE)
-[![Release](https://img.shields.io/github/release/golangci/golangci-lint.svg)](https://github.com/chenfeining/golangci-lint/releases/latest)
-[![Docker](https://img.shields.io/docker/pulls/golangci/golangci-lint)](https://hub.docker.com/r/golangci/golangci-lint)
-[![GitHub Releases Stats of golangci-lint](https://img.shields.io/github/downloads/golangci/golangci-lint/total.svg?logo=github)](https://somsubhra.github.io/github-release-stats/?username=golangci&repository=golangci-lint)
+[![License](https://img.shields.io/github/license/chenfeining/golangci-lint)](/LICENSE)
+[![Release](https://img.shields.io/github/release/chenfeining/golangci-lint.svg)](https://github.com/chenfeining/golangci-lint/releases/latest)
+[![Docker](https://img.shields.io/docker/pulls/chenfeining/golangci-lint)](https://hub.docker.com/r/chenfeining/golangci-lint)
+[![GitHub Releases Stats of golangci-lint](https://img.shields.io/github/downloads/chenfeining/golangci-lint/total.svg?logo=github)](https://somsubhra.github.io/github-release-stats/?username=golangci&repository=golangci-lint)
 
 ## Contributors
 
@@ -660,4 +660,4 @@ The Core Team has the following responsibilities:
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/golangci/golangci-lint.svg)](https://starchart.cc/golangci/golangci-lint)
+[![Stargazers over time](https://starchart.cc/chenfeining/golangci-lint.svg)](https://starchart.cc/chenfeining/golangci-lint)

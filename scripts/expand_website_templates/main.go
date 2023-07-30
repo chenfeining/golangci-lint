@@ -140,7 +140,7 @@ type latestRelease struct {
 func getLatestVersion() (string, error) {
 	req, err := http.NewRequest( //nolint:noctx
 		http.MethodGet,
-		"https://api.github.com/repos/golangci/golangci-lint/releases/latest",
+		"https://api.github.com/repos/chenfeining/golangci-lint/releases/latest",
 		http.NoBody,
 	)
 	if err != nil {

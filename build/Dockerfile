@@ -14,5 +14,5 @@ FROM golang:1.20
 # related to https://github.com/chenfeining/golangci-lint/issues/3107
 ENV GOROOT /usr/local/go
 # don't place it into $GOPATH/bin because Drone mounts $GOPATH as volume
-COPY --from=builder /golangci/golangci-lint /usr/bin/
+COPY --from=builder /chenfeining/golangci-lint /usr/bin/
 CMD ["golangci-lint"]
