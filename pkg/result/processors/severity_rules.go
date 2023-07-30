@@ -3,9 +3,9 @@ package processors
 import (
 	"regexp"
 
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/chenfeining/golangci-lint/pkg/fsutils"
+	"github.com/chenfeining/golangci-lint/pkg/logutils"
+	"github.com/chenfeining/golangci-lint/pkg/result"
 )
 
 type severityRule struct {

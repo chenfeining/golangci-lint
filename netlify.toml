@@ -1,7 +1,7 @@
 [context.production.environment]
   GO_VERSION = "1.19"
   NODE_VERSION = "17"
-  # TODO https://github.com/golangci/golangci-lint/pull/2904#issuecomment-1146870535
+  # TODO https://github.com/chenfeining/golangci-lint/pull/2904#issuecomment-1146870535
 #   NPM_FLAGS = "--legacy-peer-deps"
 #   NPM_FLAGS = "--force"
   NPM_VERSION = "8.5.5"
@@ -9,7 +9,7 @@
 [context.deploy-preview.environment]
   GO_VERSION = "1.19"
   NODE_VERSION = "17"
-  # TODO https://github.com/golangci/golangci-lint/pull/2904#issuecomment-1146870535
+  # TODO https://github.com/chenfeining/golangci-lint/pull/2904#issuecomment-1146870535
 #   NPM_FLAGS = "--legacy-peer-deps"
 #   NPM_FLAGS = "--force"
   NPM_VERSION = "8.5.5"
@@ -17,7 +17,7 @@
 [context.branch-deploy.environment]
   GO_VERSION = "1.19"
   NODE_VERSION = "17"
-  # TODO https://github.com/golangci/golangci-lint/pull/2904#issuecomment-1146870535
+  # TODO https://github.com/chenfeining/golangci-lint/pull/2904#issuecomment-1146870535
 #   NPM_FLAGS = "--legacy-peer-deps"
 #   NPM_FLAGS = "--force"
   NPM_VERSION = "8.5.5"

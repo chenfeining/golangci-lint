@@ -12,7 +12,7 @@ import (
 	hcversion "github.com/hashicorp/go-version"
 	"github.com/stretchr/testify/require"
 
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
+	"github.com/chenfeining/golangci-lint/pkg/exitcodes"
 )
 
 // RunContext the information extracted from directives.

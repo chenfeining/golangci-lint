@@ -15,7 +15,7 @@ var separatorToReplace = regexp.QuoteMeta(string(filepath.Separator))
 // This replacing should be safe because "/" are disallowed in Windows
 // https://docs.microsoft.com/windows/win32/fileio/naming-a-file
 func NormalizePathInRegex(path string) string {
-	// remove redundant character escape "\/" https://github.com/golangci/golangci-lint/issues/3277
+	// remove redundant character escape "\/" https://github.com/chenfeining/golangci-lint/issues/3277
 	clean := regexp.MustCompile(`\\+/`).
 		ReplaceAllStringFunc(path, func(s string) string {
 			if strings.Count(s, "\\")%2 == 0 {

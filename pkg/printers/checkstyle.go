@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-xmlfmt/xmlfmt"
 
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/chenfeining/golangci-lint/pkg/result"
 )
 
 const defaultCheckstyleSeverity = "error"

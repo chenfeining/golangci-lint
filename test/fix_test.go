@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/golangci/golangci-lint/test/testshared"
+	"github.com/chenfeining/golangci-lint/test/testshared"
 )
 
 // value: "1"

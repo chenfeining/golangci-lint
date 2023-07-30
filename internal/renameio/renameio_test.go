@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build !plan9
 // +build !plan9
 
 package renameio
@@ -18,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golangci/golangci-lint/internal/robustio"
+	"github.com/chenfeining/golangci-lint/internal/robustio"
 )
 
 func TestConcurrentReadsAndWrites(t *testing.T) {

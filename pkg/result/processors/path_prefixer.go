@@ -1,8 +1,8 @@
 package processors
 
 import (
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/chenfeining/golangci-lint/pkg/fsutils"
+	"github.com/chenfeining/golangci-lint/pkg/result"
 )
 
 // PathPrefixer adds a customizable prefix to every output path

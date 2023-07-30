@@ -3,7 +3,7 @@ package processors
 import (
 	"fmt"
 
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/chenfeining/golangci-lint/pkg/result"
 )
 
 func filterIssues(issues []result.Issue, filter func(i *result.Issue) bool) []result.Issue {

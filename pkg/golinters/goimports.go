@@ -8,9 +8,9 @@ import (
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/imports"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
+	"github.com/chenfeining/golangci-lint/pkg/config"
+	"github.com/chenfeining/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/chenfeining/golangci-lint/pkg/lint/linter"
 )
 
 const goimportsName = "goimports"

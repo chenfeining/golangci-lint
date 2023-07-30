@@ -4,7 +4,7 @@ import (
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/golangci/golangci-lint/pkg/config"
+	"github.com/chenfeining/golangci-lint/pkg/config"
 )
 
 const (

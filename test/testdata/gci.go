@@ -3,11 +3,11 @@
 package testdata
 
 import (
-	"golang.org/x/tools/go/analysis" // want "File is not \\`gci\\`-ed with --skip-generated -s standard -s prefix\\(github.com/golangci/golangci-lint,github.com/daixiang0/gci\\) -s default --custom-order"
-	"github.com/golangci/golangci-lint/pkg/config"
-	"fmt"
 	"errors"
-	gcicfg "github.com/daixiang0/gci/pkg/config"  // want "File is not \\`gci\\`-ed with --skip-generated -s standard -s prefix\\(github.com/golangci/golangci-lint,github.com/daixiang0/gci\\) -s default --custom-order"
+	"fmt"
+	"github.com/chenfeining/golangci-lint/pkg/config"
+	gcicfg "github.com/daixiang0/gci/pkg/config" // want "File is not \\`gci\\`-ed with --skip-generated -s standard -s prefix\\(github.com/chenfeining/golangci-lint,github.com/daixiang0/gci\\) -s default --custom-order"
+	"golang.org/x/tools/go/analysis"             // want "File is not \\`gci\\`-ed with --skip-generated -s standard -s prefix\\(github.com/chenfeining/golangci-lint,github.com/daixiang0/gci\\) -s default --custom-order"
 )
 
 func GoimportsLocalTest() {

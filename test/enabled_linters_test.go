@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/golangci/golangci-lint/pkg/lint/lintersdb"
-	"github.com/golangci/golangci-lint/test/testshared"
+	"github.com/chenfeining/golangci-lint/pkg/lint/lintersdb"
+	"github.com/chenfeining/golangci-lint/test/testshared"
 )
 
 func TestEnabledLinters(t *testing.T) {

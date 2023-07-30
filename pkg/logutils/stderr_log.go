@@ -7,7 +7,7 @@ import (
 
 	"github.com/sirupsen/logrus" //nolint:depguard
 
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
+	"github.com/chenfeining/golangci-lint/pkg/exitcodes"
 )
 
 const (
