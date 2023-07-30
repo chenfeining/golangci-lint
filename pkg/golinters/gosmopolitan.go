@@ -6,8 +6,8 @@ import (
 	"github.com/xen0n/gosmopolitan"
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/chenfeining/golangci-lint/pkg/config"
+	"github.com/chenfeining/golangci-lint/pkg/golinters/goanalysis"
 )
 
 func NewGosmopolitan(s *config.GosmopolitanSettings) *goanalysis.Linter {

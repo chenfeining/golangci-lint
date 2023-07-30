@@ -6,10 +6,10 @@ import (
 	"github.com/ryancurrah/gomodguard"
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/chenfeining/golangci-lint/pkg/config"
+	"github.com/chenfeining/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/chenfeining/golangci-lint/pkg/lint/linter"
+	"github.com/chenfeining/golangci-lint/pkg/result"
 )
 
 const (

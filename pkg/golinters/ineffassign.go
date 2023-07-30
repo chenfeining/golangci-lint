@@ -4,7 +4,7 @@ import (
 	"github.com/gordonklaus/ineffassign/pkg/ineffassign"
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/chenfeining/golangci-lint/pkg/golinters/goanalysis"
 )
 
 func NewIneffassign() *goanalysis.Linter {

@@ -7,9 +7,9 @@ import (
 	deadcodeAPI "github.com/golangci/go-misc/deadcode"
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/chenfeining/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/chenfeining/golangci-lint/pkg/lint/linter"
+	"github.com/chenfeining/golangci-lint/pkg/result"
 )
 
 const deadcodeName = "deadcode"

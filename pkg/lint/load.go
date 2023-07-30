@@ -13,14 +13,14 @@ import (
 
 	"golang.org/x/tools/go/packages"
 
-	"github.com/golangci/golangci-lint/internal/pkgcache"
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis/load"
-	"github.com/golangci/golangci-lint/pkg/goutil"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/chenfeining/golangci-lint/internal/pkgcache"
+	"github.com/chenfeining/golangci-lint/pkg/config"
+	"github.com/chenfeining/golangci-lint/pkg/exitcodes"
+	"github.com/chenfeining/golangci-lint/pkg/fsutils"
+	"github.com/chenfeining/golangci-lint/pkg/golinters/goanalysis/load"
+	"github.com/chenfeining/golangci-lint/pkg/goutil"
+	"github.com/chenfeining/golangci-lint/pkg/lint/linter"
+	"github.com/chenfeining/golangci-lint/pkg/logutils"
 )
 
 type ContextLoader struct {
@@ -163,7 +163,7 @@ func (cl *ContextLoader) parseLoadedPackagesErrors(pkgs []*packages.Package) err
 		for _, err := range pkg.Errors {
 			// quick fix: skip error related to `go list` invocation by packages.Load()
 			// The behavior has been changed between go1.19 and go1.20, the error is now inside the JSON content.
-			// https://github.com/golangci/golangci-lint/pull/3414#issuecomment-1364756303
+			// https://github.com/chenfeining/golangci-lint/pull/3414#issuecomment-1364756303
 			if strings.Contains(err.Msg, "# command-line-arguments") {
 				continue
 			}
@@ -311,7 +311,7 @@ func (cl *ContextLoader) Load(ctx context.Context, linters []*linter.Config) (*l
 		Packages: deduplicatedPkgs,
 
 		// At least `unused` linters works properly only on original (not deduplicated) packages,
-		// see https://github.com/golangci/golangci-lint/pull/585.
+		// see https://github.com/chenfeining/golangci-lint/pull/585.
 		OriginalPackages: pkgs,
 
 		Cfg:       cl.cfg,

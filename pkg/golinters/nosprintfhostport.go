@@ -4,7 +4,7 @@ import (
 	"github.com/stbenjam/no-sprintf-host-port/pkg/analyzer"
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/chenfeining/golangci-lint/pkg/golinters/goanalysis"
 )
 
 func NewNoSprintfHostPort() *goanalysis.Linter {

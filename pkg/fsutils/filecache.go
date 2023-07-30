@@ -5,7 +5,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/chenfeining/golangci-lint/pkg/logutils"
 )
 
 type FileCache struct {

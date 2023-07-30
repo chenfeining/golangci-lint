@@ -4,7 +4,7 @@
 package gci
 
 import (
-	"github.com/golangci/golangci-lint/pkg/config"
+	"github.com/chenfeining/golangci-lint/pkg/config"
 	"golang.org/x/tools/go/analysis"
 
 	"fmt"

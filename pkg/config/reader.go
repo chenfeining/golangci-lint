@@ -12,9 +12,9 @@ import (
 	"github.com/spf13/viper"
 	"golang.org/x/exp/slices"
 
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/chenfeining/golangci-lint/pkg/exitcodes"
+	"github.com/chenfeining/golangci-lint/pkg/fsutils"
+	"github.com/chenfeining/golangci-lint/pkg/logutils"
 )
 
 type FileReader struct {

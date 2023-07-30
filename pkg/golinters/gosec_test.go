@@ -6,7 +6,7 @@ import (
 	"github.com/securego/gosec/v2"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/golangci/golangci-lint/pkg/config"
+	"github.com/chenfeining/golangci-lint/pkg/config"
 )
 
 func Test_toGosecConfig(t *testing.T) {

@@ -3,7 +3,7 @@ package testdata
 
 import (
 	"fmt" // want "File is not `goimports`-ed"
-	"github.com/golangci/golangci-lint/pkg/config"
+	"github.com/chenfeining/golangci-lint/pkg/config"
 )
 
 func Bar() {

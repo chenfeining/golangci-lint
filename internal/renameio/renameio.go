@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/golangci/golangci-lint/internal/robustio"
+	"github.com/chenfeining/golangci-lint/internal/robustio"
 )
 
 const patternSuffix = ".tmp"
@@ -85,9 +85,9 @@ func tempFile(dir, prefix string, perm os.FileMode) (f *os.File, err error) {
 // Errors are classified heuristically and retries are bounded, so even this
 // function may occasionally return a spurious error on Windows.
 // If so, the error will likely wrap one of:
-//     - syscall.ERROR_ACCESS_DENIED
-//     - syscall.ERROR_FILE_NOT_FOUND
-//     - internal/syscall/windows.ERROR_SHARING_VIOLATION
+//   - syscall.ERROR_ACCESS_DENIED
+//   - syscall.ERROR_FILE_NOT_FOUND
+//   - internal/syscall/windows.ERROR_SHARING_VIOLATION
 func ReadFile(filename string) ([]byte, error) {
 	return robustio.ReadFile(filename)
 }

@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/golangci/golangci-lint/pkg/goutil"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/chenfeining/golangci-lint/pkg/goutil"
+	"github.com/chenfeining/golangci-lint/pkg/result"
 )
 
 type Cgo struct {

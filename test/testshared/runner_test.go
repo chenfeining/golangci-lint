@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
+	"github.com/chenfeining/golangci-lint/pkg/exitcodes"
 )
 
 func TestRunnerBuilder_Runner(t *testing.T) {

@@ -17,7 +17,7 @@ import (
 	gops "github.com/mitchellh/go-ps"
 	"github.com/shirou/gopsutil/v3/process"
 
-	"github.com/golangci/golangci-lint/test/testshared"
+	"github.com/chenfeining/golangci-lint/test/testshared"
 )
 
 func chdir(b testing.TB, dir string) {

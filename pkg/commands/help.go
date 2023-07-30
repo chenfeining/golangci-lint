@@ -8,8 +8,8 @@ import (
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/chenfeining/golangci-lint/pkg/lint/linter"
+	"github.com/chenfeining/golangci-lint/pkg/logutils"
 )
 
 func (e *Executor) initHelp() {

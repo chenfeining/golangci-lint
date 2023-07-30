@@ -1,4 +1,4 @@
-module github.com/golangci/golangci-lint/tools
+module github.com/chenfeining/golangci-lint/tools
 
 go 1.19
 

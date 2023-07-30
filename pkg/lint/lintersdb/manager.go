@@ -1,10 +1,10 @@
 package lintersdb
 
 import (
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/chenfeining/golangci-lint/pkg/config"
+	"github.com/chenfeining/golangci-lint/pkg/golinters"
+	"github.com/chenfeining/golangci-lint/pkg/lint/linter"
+	"github.com/chenfeining/golangci-lint/pkg/logutils"
 )
 
 type Manager struct {
@@ -890,7 +890,7 @@ func (m Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 		linter.NewConfig(golinters.NewNoLintLint(noLintLintCfg)).
 			WithSince("v1.26.0").
 			WithPresets(linter.PresetStyle).
-			WithURL("https://github.com/golangci/golangci-lint/blob/master/pkg/golinters/nolintlint/README.md"),
+			WithURL("https://github.com/chenfeining/golangci-lint/blob/master/pkg/golinters/nolintlint/README.md"),
 	)
 
 	return linters

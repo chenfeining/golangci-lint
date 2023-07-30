@@ -6,8 +6,8 @@ package gci
 import (
 	"fmt"
 
+	"github.com/chenfeining/golangci-lint/pkg/config"
 	gcicfg "github.com/daixiang0/gci/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/config"
 
 	"golang.org/x/tools/go/analysis"
 )
